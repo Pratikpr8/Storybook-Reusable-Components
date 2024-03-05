@@ -6,6 +6,9 @@ const meta: Meta<typeof Light> = {
   component: Light,
   title: "Components/Light",
   tags: ["autodocs"],
+  parameters: {
+    layout: "centered",
+  },
   argTypes: {
     variant: {
       control: { type: "radio" },
