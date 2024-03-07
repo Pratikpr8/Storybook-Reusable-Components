@@ -13,7 +13,6 @@ const Light = ({ variant = "green" }: Props) => {
       }}
     ></div>
   );
-}; 
+};
 
 export default Light;
-  
